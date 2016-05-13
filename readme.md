@@ -1,14 +1,16 @@
-# Vianna.js
+# Virtual.js
 
 > Use markup to create VR slide presentations that work across desktop, iOS, Android, and the Oculus Rift.
 
+![virtual.js](virtual.jpg)
+
 ## Usage
 
-Initialize vianna.js before body
+Initialize virtual.js before body
 
 ```html
 
-<script type="text/javascript" src="vianna.js"></script>
+<script type="text/javascript" src="virtual.js"></script>
 </body>
 
 ```
@@ -17,7 +19,7 @@ Define Slide presentation
 
 ```html
 
-<vianna>
+<virtual>
     <v-assets>
         <img src="img/slide_1.png" id="slide-1">
         <img src="img/slide_2.jpg" id="slide-2">
@@ -31,6 +33,6 @@ Define Slide presentation
     <v-html order="4"/>
         <h1>The End</h1>
     </v-html>
-</vianna>
+</virtual>
 
 ```
